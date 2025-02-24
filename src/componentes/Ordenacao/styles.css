@@ -1,0 +1,28 @@
+.container-ordena ul li {
+  display: inline-block;
+}
+
+.container-ordena ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.container-ordena {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.container-ordena ul li a {
+  text-decoration: none;
+  color: var(--cinza-medio);
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.container-ordena ul li a:focus {
+  color: var(--verde-destaque);
+  text-decoration: underline;
+  font-weight: 500;
+}
